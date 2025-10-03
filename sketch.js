@@ -1,8 +1,8 @@
 
-letBearStage;
+let BearStage;
 
 function preload(){
-   bearStage = loadimage("C:\Users\ganal\Downloads\bearStage.gif");
+   bearStage = loadImage("bearStage.gif");
 }
 
 
@@ -14,4 +14,5 @@ function setup()
 function draw()
 {
        background(220,200,200);
+       image(bearStage, 0, 0, 300,300);
     }
